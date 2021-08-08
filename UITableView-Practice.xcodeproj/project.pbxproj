@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		AB13ED9326BF6B21002F56FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13ED9126BF6B21002F56FF /* Main.storyboard */; };
 		AB13ED9526BF6B22002F56FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB13ED9426BF6B22002F56FF /* Assets.xcassets */; };
 		AB13ED9826BF6B22002F56FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13ED9626BF6B22002F56FF /* LaunchScreen.storyboard */; };
+		AB13EDA126BF6DEE002F56FF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */; };
+		AB13EDA226BF6DEE002F56FF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB13EDA026BF6DEE002F56FF /* CustomCell.xib */; };
 		C9CC90CB2763F3F25C0FCF48 /* Pods_UITableView_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F0ADFCD39AE0F56241E9D0 /* Pods_UITableView_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		AB13ED9426BF6B22002F56FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB13ED9726BF6B22002F56FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB13ED9926BF6B22002F56FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		AB13EDA026BF6DEE002F56FF /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,6 @@
 				4F54272D0F7F429FEB3B5AF1 /* Pods-UITableView-Practice.debug.xcconfig */,
 				3A61FEE94136B06A81F0583C /* Pods-UITableView-Practice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +79,8 @@
 				AB13ED8B26BF6B21002F56FF /* AppDelegate.swift */,
 				AB13ED8D26BF6B21002F56FF /* SceneDelegate.swift */,
 				AB13ED8F26BF6B21002F56FF /* ViewController.swift */,
+				AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */,
+				AB13EDA026BF6DEE002F56FF /* CustomCell.xib */,
 				AB13ED9126BF6B21002F56FF /* Main.storyboard */,
 				AB13ED9426BF6B22002F56FF /* Assets.xcassets */,
 				AB13ED9626BF6B22002F56FF /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				AB13ED9826BF6B22002F56FF /* LaunchScreen.storyboard in Resources */,
 				AB13ED9526BF6B22002F56FF /* Assets.xcassets in Resources */,
+				AB13EDA226BF6DEE002F56FF /* CustomCell.xib in Resources */,
 				AB13ED9326BF6B21002F56FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +214,7 @@
 			files = (
 				AB13ED9026BF6B21002F56FF /* ViewController.swift in Sources */,
 				AB13ED8C26BF6B21002F56FF /* AppDelegate.swift in Sources */,
+				AB13EDA126BF6DEE002F56FF /* CustomCell.swift in Sources */,
 				AB13ED8E26BF6B21002F56FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
