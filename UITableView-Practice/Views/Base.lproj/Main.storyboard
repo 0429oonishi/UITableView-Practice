@@ -31,7 +31,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LXT-hG-gtX">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="wCz-GL-c1q">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="wCz-GL-c1q">
                             <connections>
                                 <action selector="editButtonDidTapped:" destination="BYZ-38-t0r" id="nNg-BO-Ooh"/>
                             </connections>

@@ -15,6 +15,10 @@
 		AB13ED9826BF6B22002F56FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13ED9626BF6B22002F56FF /* LaunchScreen.storyboard */; };
 		AB13EDA126BF6DEE002F56FF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */; };
 		AB13EDA226BF6DEE002F56FF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB13EDA026BF6DEE002F56FF /* CustomCell.xib */; };
+		AB13EDA426BF7A01002F56FF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13EDA326BF7A01002F56FF /* Person.swift */; };
+		AB13EDA626BF834D002F56FF /* RealmPersonDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13EDA526BF834D002F56FF /* RealmPersonDataStore.swift */; };
+		AB13EDA826BF835A002F56FF /* PersonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13EDA726BF835A002F56FF /* PersonRepository.swift */; };
+		AB13EDAA26BF8360002F56FF /* PersonUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13EDA926BF8360002F56FF /* PersonUseCase.swift */; };
 		C9CC90CB2763F3F25C0FCF48 /* Pods_UITableView_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F0ADFCD39AE0F56241E9D0 /* Pods_UITableView_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,10 @@
 		AB13ED9926BF6B22002F56FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		AB13EDA026BF6DEE002F56FF /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		AB13EDA326BF7A01002F56FF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AB13EDA526BF834D002F56FF /* RealmPersonDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPersonDataStore.swift; sourceTree = "<group>"; };
+		AB13EDA726BF835A002F56FF /* PersonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRepository.swift; sourceTree = "<group>"; };
+		AB13EDA926BF8360002F56FF /* PersonUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +84,45 @@
 		AB13ED8A26BF6B21002F56FF /* UITableView-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				AB13EDAB26BF83C4002F56FF /* Models */,
+				AB13EDAC26BF83CD002F56FF /* Views */,
+				AB13EDAD26BF83D2002F56FF /* Controllers */,
 				AB13ED8B26BF6B21002F56FF /* AppDelegate.swift */,
 				AB13ED8D26BF6B21002F56FF /* SceneDelegate.swift */,
-				AB13ED8F26BF6B21002F56FF /* ViewController.swift */,
-				AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */,
-				AB13EDA026BF6DEE002F56FF /* CustomCell.xib */,
-				AB13ED9126BF6B21002F56FF /* Main.storyboard */,
 				AB13ED9426BF6B22002F56FF /* Assets.xcassets */,
 				AB13ED9626BF6B22002F56FF /* LaunchScreen.storyboard */,
 				AB13ED9926BF6B22002F56FF /* Info.plist */,
 			);
 			path = "UITableView-Practice";
+			sourceTree = "<group>";
+		};
+		AB13EDAB26BF83C4002F56FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB13EDA326BF7A01002F56FF /* Person.swift */,
+				AB13EDA526BF834D002F56FF /* RealmPersonDataStore.swift */,
+				AB13EDA726BF835A002F56FF /* PersonRepository.swift */,
+				AB13EDA926BF8360002F56FF /* PersonUseCase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB13EDAC26BF83CD002F56FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB13ED9126BF6B21002F56FF /* Main.storyboard */,
+				AB13ED9F26BF6DEE002F56FF /* CustomCell.swift */,
+				AB13EDA026BF6DEE002F56FF /* CustomCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB13EDAD26BF83D2002F56FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB13ED8F26BF6B21002F56FF /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B9478F638B7195E8A6AA9E84 /* Frameworks */ = {
@@ -216,6 +252,10 @@
 				AB13ED8C26BF6B21002F56FF /* AppDelegate.swift in Sources */,
 				AB13EDA126BF6DEE002F56FF /* CustomCell.swift in Sources */,
 				AB13ED8E26BF6B21002F56FF /* SceneDelegate.swift in Sources */,
+				AB13EDA426BF7A01002F56FF /* Person.swift in Sources */,
+				AB13EDA626BF834D002F56FF /* RealmPersonDataStore.swift in Sources */,
+				AB13EDAA26BF8360002F56FF /* PersonUseCase.swift in Sources */,
+				AB13EDA826BF835A002F56FF /* PersonRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
